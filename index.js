@@ -30,6 +30,6 @@ app.use('/api/products', productRoute)
 app.use('/api/carts', cartRoute)
 app.use('/api/orders', orderRoute)
 
-const port = process.env.PORT || 8000
+const port = process.env.PORT ||8000
 
 app.listen(port, () => console.log(`Server established on port ${port}`))
