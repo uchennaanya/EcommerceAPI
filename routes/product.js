@@ -56,7 +56,7 @@ router.get('/findProduct/:id', async (req, res) => {
 
 router.get('/allProduct', async (req, res) => {
     const qNew = req.query.new
-    const qCategory = req.query.category
+    const qCategory = req.query.categories
 
     try {
         let products
