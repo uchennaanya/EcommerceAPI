@@ -54,6 +54,8 @@ router.get('/findProduct/:id', async (req, res) => {
     }
 })
 
+// All Product
+
 router.get('/allProduct', async (req, res) => {
     const qNew = req.query.new
     const qCategory = req.query.categories
